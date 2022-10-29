@@ -11,6 +11,20 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="0dp">
+        <com.google.android.material.button.MaterialButton
+            android:visibility="invisible"
+            android:id="@+id/button_turn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="sent"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/gray_dark"
+            app:cornerRadius="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+
         <TextView
             android:id="@+id/text_view"
             android:layout_gravity="bottom|end"
