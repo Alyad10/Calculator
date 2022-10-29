@@ -34,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 String text = textView.getText().toString();
                 intent.putExtra("result", text);
                 startActivity(intent);
+                finish();
             }
+
 
 
         });
